@@ -38,7 +38,7 @@
     in
     {
       devShell = shell {
-        name = "commutative-algebra";
+        name = "computable-fields";
         extraInitRc = ''
           TOOLCHAIN=$(elan show)
           if [ "$TOOLCHAIN" = "no active toolchain" ]; then
